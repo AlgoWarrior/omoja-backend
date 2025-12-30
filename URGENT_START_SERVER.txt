@@ -1,0 +1,56 @@
+=================================================================
+  ⚠️  URGENT: START YOUR BACKEND SERVER NOW  ⚠️
+=================================================================
+
+The error "ERR_CONNECTION_REFUSED" means your backend server is NOT running.
+
+=================================================================
+  QUICK FIX (Choose ONE method):
+=================================================================
+
+METHOD 1: Double-Click (EASIEST)
+---------------------------------
+1. Go to: Q:\CONFIDATIAL_PROJECTS\Omoja\omoja-backend
+2. Double-click: start-backend.bat
+3. Wait for: "🚀 Server running on port 5000"
+4. KEEP THE WINDOW OPEN!
+
+METHOD 2: Terminal Command
+---------------------------
+1. Open PowerShell (Win + X, then press I)
+2. Type:
+   cd Q:\CONFIDATIAL_PROJECTS\Omoja\omoja-backend
+   npm run dev
+3. Wait for: "🚀 Server running on port 5000"
+4. KEEP THE WINDOW OPEN!
+
+=================================================================
+  VERIFY IT'S WORKING:
+=================================================================
+
+1. Open browser
+2. Go to: http://localhost:5000/api/health
+3. Should see: {"success": true, "message": "API is healthy"}
+
+=================================================================
+  THEN:
+=================================================================
+
+1. ✅ Keep terminal window OPEN (server must keep running)
+2. ✅ Go back to your frontend
+3. ✅ Refresh the page
+4. ✅ Try registering - It will work!
+
+=================================================================
+  YOUR CONFIGURATION IS ALREADY CORRECT!
+=================================================================
+
+✅ .env file exists
+✅ MongoDB connection configured
+✅ All code is ready
+
+YOU JUST NEED TO START THE SERVER!
+
+=================================================================
+
+

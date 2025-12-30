@@ -3,3 +3,6 @@ node_modules
 omoja atlas db.txt
 database
 npx
+ENV_SETUP.md
+FIX_CONNECTION_ERROR.md
+FIX_MONGODB_CONNECTION
